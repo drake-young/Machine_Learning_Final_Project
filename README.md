@@ -8,9 +8,8 @@ The specifics and results will be added as a later data, as the project is still
 
 ## Completed:
 
-* Locality-Sensitive Hashing functionality is fully operational with the dummy dataset patches_color.csv, which contains 100 pixel vectors. Each row of the pixel vectors contains 400 RGB tuples to model a 20x20 image patch
-* Utility functions for reading images as formatted DataFrames as well as storing DataFrames as images
-* Evaluation for the LSH in terms of cpu time (perf_counter)
+* Locality-Sensitive Hashing functionality is fully operational with the full dataset in grayscale (~17,000 images that are 150x150 pixels and belong to one of 6 classes)
+* Evaluation for the LSH search-by-image application
 
 ## To Do
 
